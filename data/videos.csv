@@ -1,4 +1,12 @@
 
 video_id,title,url
-bear1,【独自】“東京クマ"2夜連続で激撮「75年生きて初めて」 冬眠しないクマは年越しか(2025年10月 26日),https://youtu.be/fy2JZScaOJA?si=Vj0e8A7Rokh4cnw4
-bear2,【独自】巨体クマのワナ脱出の瞬間... 脅威の破壊力 住宅街で銃使えず「最後の一手」(2025年11月 23日),https://youtu.be/fy2JZScaOJA?si=Vj0e8A7Rokh4cnw4
+import csv
+
+rows = [
+    ["bear1", '[独自] "東京クマ"2夜連続で激撮', "https://youtu.be/rsFTBxBWdVc?si=8OF40yHH7nNrlQc2"],
+]
+
+with open("videos.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow(["video_id", "title", "url"])
+    writer.writerows(rows)
