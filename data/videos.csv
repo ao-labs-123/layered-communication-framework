@@ -1,8 +1,7 @@
-
 import csv
 
 rows = [
-    ["bear1", '[独自] "東京クマ"2夜連続で激撮', "https://youtu.be/rsFTBxBWdVc?si=8OF40yHH7nNrlQc2"]
+    ["bear1", '[独自] "東京クマ"2夜連続で激撮', "https://..."],
 ]
 
 with open("videos.csv", "w", newline="", encoding="utf-8") as f:
