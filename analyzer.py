@@ -3,7 +3,7 @@ import pandas as pd
 from rules.rules_B import analyze_B
 from rules.rules_C import analyze_C
 
-df = pd.read_csv("data/comments.csv")
+df = pd.read_csv("data/comments_raw.csv")
 
 results = []
 
