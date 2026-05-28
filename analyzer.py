@@ -15,7 +15,7 @@ for _, row in df.iterrows():
     result_C = analyze_C(text)
 
     results.append({
-        "comment_id": row["comment_id"],
+        "comment": row["comment"],
         "video_id": row["video_id"],
         "text": text,
         "B_score": result_B["score"],
