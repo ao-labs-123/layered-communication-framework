@@ -9,15 +9,15 @@ results = []
 
 for _, row in df.iterrows():
 
-    text = row["text"]
+    comment = row["comment"]
 
     result_B = analyze_B(text)
     result_C = analyze_C(text)
 
     results.append({
-        "comment": row["comment"],
+        "id": row["id"],
         "video_id": row["video_id"],
-        "text": text,
+        "comment": comment,
         "B_score": result_B["score"],
         "C_score": result_C["score"],
         "layer": result_B["layer"]
