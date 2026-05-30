@@ -11,8 +11,8 @@ for _, row in df.iterrows():
 
     comment = row["comment"]
 
-    result_B = analyze_B(text)
-    result_C = analyze_C(text)
+    result_B = analyze_B(comment)
+    result_C = analyze_C(comment)
 
     results.append({
         "id": row["id"],
