@@ -1,4 +1,5 @@
 # Subject Ontology
+､､､subject
 
 行政
 ├─ 国
@@ -23,6 +24,10 @@
 ├─ 罠
 └─ 箱罠
 
+､､､
+
+､､､stance
+
 # Stance Ontology
 
 感情
@@ -39,3 +44,6 @@
 
 認知
 └─ 分析
+
+､､､
+
