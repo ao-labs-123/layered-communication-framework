@@ -99,12 +99,16 @@ active_axis if score >= max_score × 0.6
 
 ### 出力
 
-- A_score: 0.2
-- B_score: 0.3
-- C_score: 0.7
-- active_axes: [‘B’, ‘C’]
-- structure_type: dual
-- balance_index: 0.21
+```output
+
+A_score: 0.2
+B_score: 0.3
+C_score: 0.7
+active_axes: [‘B’, ‘C’]
+structure_type: dual
+balance_index: 0.21
+
+```
 
 ---
 
