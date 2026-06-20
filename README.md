@@ -116,15 +116,15 @@ balance_index: 0.21
 
 ```repository
 
-src/layered_communication/
-lexicon/
-rules/
-scoring/
-analyzer.py
+├──src/layered_communication/
+├──lexicon/
+├──rules/
+├──scoring/
+└──analyzer.py
 
-data/
-demo_input.csv
-demo_output.csv
+├──data/
+├──demo_input.csv
+└──demo_output.csv
 
 ```
 ---
