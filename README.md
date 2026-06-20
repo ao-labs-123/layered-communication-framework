@@ -111,14 +111,14 @@ active_axis if score >= max_score × 0.6
 ## リポジトリ構成
 
 - src/layered_communication/
-- lexicon/
-- rules/
-- scoring/
-- analyzer.py
+-lexicon/
+-rules/
+-scoring/
+-analyzer.py
 
 - data/
-- demo_input.csv
-- demo_output.csv
+-demo_input.csv
+-demo_output.csv
 
 ---
 
