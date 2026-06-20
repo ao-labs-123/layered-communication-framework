@@ -99,26 +99,26 @@ active_axis if score >= max_score × 0.6
 
 ### 出力
 
-A_score: 0.2
-B_score: 0.3
-C_score: 0.7
-active_axes: [‘B’, ‘C’]
-structure_type: dual
-balance_index: 0.21
+- A_score: 0.2
+- B_score: 0.3
+- C_score: 0.7
+- active_axes: [‘B’, ‘C’]
+- structure_type: dual
+- balance_index: 0.21
 
 ---
 
 ## リポジトリ構成
 
--src/layered_communication/
--lexicon/
--rules/
--scoring/
--analyzer.py
+- src/layered_communication/
+- lexicon/
+- rules/
+- scoring/
+- analyzer.py
 
--data/
--demo_input.csv
--demo_output.csv
+- data/
+- demo_input.csv
+- demo_output.csv
 
 ---
 
