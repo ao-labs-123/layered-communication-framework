@@ -1,4 +1,8 @@
 ## Layer Boundary Examples
+    いや猟友会に大金払えよ。	
+    Layer:B	
+    Not:C
+    
     柿の木なくなったら更に人家に入ってきたり熊は追い詰められるだけだろうに。熊を減らさないと。
     
     Layer:C
