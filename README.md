@@ -130,8 +130,8 @@ balance_index: 0.21
 │
 ├── src
 │　   └── layered_communication
-│           ├── analyzer.py
-│　　        └── scoring
+│         ├── analyzer.py
+│　　      └── scoring
 │
 ├── README.md
 ├── notebooks
