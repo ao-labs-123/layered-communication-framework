@@ -133,11 +133,8 @@ balance_index: 0.21
 │           ├── analyzer.py
 │　　        └── scoring
 │
-├── .gitignore
-├── LICENSE
 ├── README.md
 ├── notebooks
-├── requirements.txt
 └── scripts
 
 ```
