@@ -27,7 +27,6 @@
 ```
 
 # Stance Ontology
-
 ```stance
 
 感情
