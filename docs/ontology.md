@@ -26,9 +26,9 @@
 
 ```
 
-```stance
-
 # Stance Ontology
+
+```stance
 
 感情
 ├─ 不安
