@@ -1,33 +1,15 @@
-## 1. アノテーションの目的
-このデータセットはSNSコメントにおける「態度の向き先(subject)」と「態度の種類(stance)」を分析するために作成された。
+## 1. Purpose
 
-## 2. 基本原則
-subjectは文中に登場する名詞ではなく、話者が態度を向けている対象である。
+## 2. Layer Annotation
 
+## 3. Subject Annotation
+   3.1 基本原則
+   3.2 Subject Boundary Cases
 
-## 3. subjectの定義
+## 4. Stance Annotation
+   4.1 基本原則
+   4.2 Stance Boundary Cases
 
-## 4. stanceの定義
+## 5. Multi-label Policy
 
-## 5. subject選択ルール
-
-## 6. stance選択ルール
-
-## 7. 
-
-## 8.
-
-## 9. 国・政府・行政の区別
-
-## 10. 熊・自治体の区別
-
-## 11. 批判・皮肉の区別
-
-## 12. 批判・分析の区別
-
-## 13. 複数候補がある場合
-
-## 14. ラベル付与できない場合
-
-## 15. 境界事例集へのリンク
-
+## 6. Difficult Examples
