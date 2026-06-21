@@ -73,6 +73,7 @@
    
 # 5. Multi-label Policy
 
+```mult-label
 
 - Layer
 Layerは原則単一ラベル。
@@ -94,6 +95,8 @@ Stanceのみ複数ラベルを許可する。
 - 非推奨
 賞賛/批判
 共感/皮肉
+
+```
 
 # 6. Difficult Examples
  
