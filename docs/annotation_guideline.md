@@ -1,13 +1,13 @@
-## 1. Purpose
+# 1. Purpose
 このデータセットはSNSコメントにおける「態度の向き先(subject)」と「態度の種類(stance)」を分析するために作成された。
 
-## 2. Layer Annotation
+# 2. Layer Annotation
 
-## 3. Subject Annotation
-   3.1 基本原則
+# 3. Subject Annotation
+## 3.1 基本原則
    subjectは登場する名詞ではなく、態度の向き先を選ぶ。
    
-   3.2 Subject Boundary Cases
+## 3.2 Subject Boundary Cases
    国 vs 政府 vs 自治体
    
 例：
@@ -36,11 +36,11 @@
 
 → 被害者
 
-## 4. Stance Annotation
-   4.1 基本原則
+# 4. Stance Annotation
+## 4.1 基本原則
    stanceは発話の中心的態度を選ぶ。
    
-   4.2 Stance Boundary Cases
+## 4.2 Stance Boundary Cases
    批判 vs 皮肉
 
 例：
@@ -71,6 +71,6 @@
 
 → 共感
    
-## 5. Multi-label Policy
+# 5. Multi-label Policy
 
-## 6. Difficult Examples
+# 6. Difficult Examples
