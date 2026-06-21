@@ -128,12 +128,11 @@ balance_index: 0.21
 │   ├── annotation_guideline.md
 │   └── ontology.md
 │
-├── src
-│   └── layered_communication
-│        ├── analyzer.py
-│        └── scoring
-│
-└── 
+└── src
+　   └── layered_communication
+           ├── analyzer.py
+　　        └── scoring
+
 
 ```
 ---
