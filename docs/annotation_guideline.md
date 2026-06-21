@@ -1,4 +1,5 @@
 ## 1. Purpose
+このデータセットはSNSコメントにおける「態度の向き先(subject)」と「態度の種類(stance)」を分析するために作成された。
 
 ## 2. Layer Annotation
 
