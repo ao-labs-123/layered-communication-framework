@@ -84,4 +84,5 @@ The highest score is used as the reference axis.Multi-Layer Classification
 The highest score is used as the reference axis.
 
 An axis is considered active when:An axis is considered active when:
+
 score >= max_score * 0.6score >= max_score * 0.6
