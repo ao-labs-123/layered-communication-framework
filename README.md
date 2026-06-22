@@ -103,3 +103,7 @@ Interpretation:
 * High value → structurally concentrated utterance
 
 This provides a simple quantitative measure of structural bias.
+
+## Example
+
+**Input**
