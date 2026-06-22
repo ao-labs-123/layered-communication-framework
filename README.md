@@ -123,6 +123,7 @@ balance_index: 0.21
 
 ## Repository Structure
 
+```repository
 
 ├── data
 │   ├── analysis_output.csv
@@ -143,3 +144,5 @@ balance_index: 0.21
 ├── README.md
 ├── notebooks
 └── scripts
+
+```
