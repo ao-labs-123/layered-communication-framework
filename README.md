@@ -107,3 +107,4 @@ This provides a simple quantitative measure of structural bias.
 ## Example
 
 **Input**
+If possible, could you check this?
