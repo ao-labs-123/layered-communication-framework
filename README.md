@@ -79,8 +79,6 @@ All scores are normalized to the range [0,1].
 
 ## Multi-Layer Classification
 
-The highest score is used as the reference axis.Multi-Layer Classification
-
 The highest score is used as the reference axis.
 
 An axis is considered active when:An axis is considered active when:
