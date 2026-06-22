@@ -76,3 +76,9 @@ Each utterance receives three normalized scores:
 * C_score
 
 All scores are normalized to the range [0,1].
+
+## Multi-Layer Classification
+
+The highest score is used as the reference axis.Multi-Layer Classification
+
+The highest score is used as the reference axis.
