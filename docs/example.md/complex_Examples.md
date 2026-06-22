@@ -11,28 +11,28 @@
     Layer:C	
     Subject:自治体	
     Stance:要求
-    Reason:
+    Reason:対策として大学教授の挙げた柿の木への反論
 
     ここまで同じタイミングで一斉に街に流れ出てるの凄いな。ただ熊被害で亡くなる人が増える前に対策してほしい
     
     Layer:C	
     Subject:政府	
     Stance:要求
-    Reason:
+    Reason:前半は評価(賞賛ではない)だが、後半は要求
 
     23区に到達したら国ぐるみで動くんじゃないですか	
     
     Layer:B	
     Subject:国	
     Stance:皮肉
-    
+    Reason:
 
     クマにクマ肉の味を覚えさせればクマの増えすぎ問題は自己解決できる
     
     Layer:B	
     Subject:クマ	
     Stance:皮肉
-    Reason:
+    Reason:表面的には提案だが、クマに対する皮肉が主要
 
     もうダメだな。ここまでやられてクマを保護とか馬鹿馬鹿しい。 徹底的に駆除してその結果絶滅しても良い。
     
@@ -46,7 +46,7 @@
     Layer:B	
     Subject:熊	
     Stance:不安
-    Reason:
+    Reason:明確な評価はないが、比喩で不安のstance
 
     この時期に食い続けるではなく腹が減ったらリンゴ食うとか、もう冬眠する気無かったろ
     
@@ -60,11 +60,11 @@
     Layer:C	
     Subject:政府	
     Stance:要求
-    Reason:
+    Reason:批判が強いが結論は要求、不安の裏返し
 
     りんご農園さん大人な対応だな、私だったら行政の対応遅くてイラつく
     
     Layer:B	
     Subject:行政	
     Stance:批判/皮肉
-    Reason:
+    Reason:前半は表面的には賞賛だが、後半の批判が主要で前半に行政に対する皮肉が混じっている
