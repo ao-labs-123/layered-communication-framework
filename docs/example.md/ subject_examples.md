@@ -33,7 +33,7 @@
     
     Subject:政府
     Not:熊
-    Reason:熊要求の向き先
+    Reason:要求の向き先
 
     もう、通り魔以上だよ! 怖い	
     
