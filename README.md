@@ -122,3 +122,23 @@ structure_type: dual
 balance_index: 0.21
 
 ## Repository Structure
+
+├── data
+│   ├── analysis_output.csv
+│   ├── comments_raw.csv
+│   ├── gold_sample.csv
+│   └── videos.csv
+│
+├── docs
+│   ├── examples.md
+│   ├── annotation_guideline.md
+│   └── ontology.md
+│
+├── src
+│   └── layered_communication
+│       ├── analyzer.py
+│       └── scoring
+│
+├── README.md
+├── notebooks
+└── scripts
