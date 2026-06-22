@@ -96,3 +96,10 @@ This produces:
 The standard deviation of the three axis scores is calculated as:
 
 balance_index
+
+Interpretation:
+
+* Low value → structurally balanced utterance
+* High value → structurally concentrated utterance
+
+This provides a simple quantitative measure of structural bias.
