@@ -146,3 +146,24 @@ balance_index: 0.21
 └── scripts
 
 ```
+
+## Positioning
+
+This project is not intended to be a high-accuracy classifier.
+
+Its purpose is to balance:
+
+* Lightweight design
+* Transparent rules
+* High structural interpretability
+
+The framework attempts to represent human communication not through semantic meaning alone, but through the overlap of communicative structures.
+
+⸻
+
+## Future Directions
+
+* Multi-layer frequency analysis on large corpora
+* Structural clustering of discourse
+* Cross-linguistic adaptation
+* Comparison between human and AI-generated communication
