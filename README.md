@@ -1,0 +1,78 @@
+# Layered Communication Framework
+
+## Overview
+
+Layered Communication Framework is a lightweight rule-based model for representing human utterances as a set of overlapping structural layers.
+
+Rather than treating communication as a single intention, emotion, or speech act, the framework models discourse as the coexistence of multiple structural dimensions.
+
+Without relying on deep learning or large-scale corpora, the framework aims to capture the structural complexity of human communication through a minimal ontology and transparent rules.
+
+⸻
+
+## Theoretical Background
+
+Many language analysis approaches tend to assign each utterance to a single category.
+
+In reality, however, human communication often contains multiple simultaneous structures, such as:
+
+* Misalignment
+* Evaluation
+* Delegation of judgment
+
+These structures frequently coexist within the same utterance.
+
+The framework decomposes discourse into three structural axes and assigns a score to each axis, allowing the coexistence of multiple communicative layers to be visualized.
+
+The goal is not classification accuracy, but structural interpretability.
+
+⸻
+
+## Structural Axes
+
+- A: Misalignment Structure
+
+Examples include:
+
+* Request–action mismatch
+* Reference mismatch
+* Expectation–interpretation mismatch
+
+This axis captures structural friction in communication.
+
+⸻
+
+- B: Evaluation Structure
+
+Examples include:
+
+* Situation evaluation
+* Person evaluation
+* Strong evaluative expressions that trigger stance formation
+
+This axis extracts evaluative layers based on linguistic and attitudinal indicators.
+
+⸻
+
+- C: Delegated Judgment Structure
+
+Examples include:
+
+* Responsibility delegation (“it’s up to you”)
+* Implicit norm reliance (“that’s just how things are”)
+* Conditional responsibility (“if X, then Y”)
+* Consideration-based delegation (“if possible”, “if you don’t mind”)
+
+This axis identifies where judgment, responsibility, or decision-making authority is placed.
+
+⸻
+
+## Multi-Layer Scoring
+
+Each utterance receives three normalized scores:
+
+* A_score
+* B_score
+* C_score
+
+All scores are normalized to the range [0,1].
