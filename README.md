@@ -30,7 +30,7 @@ The goal is not classification accuracy, but structural interpretability.
 
 ## Structural Axes
 
-- A: Misalignment Structure
+*A: Misalignment Structure*
 
 Examples include:
 
@@ -42,7 +42,7 @@ This axis captures structural friction in communication.
 
 ⸻
 
-- B: Evaluation Structure
+*B: Evaluation Structure*
 
 Examples include:
 
@@ -54,7 +54,7 @@ This axis extracts evaluative layers based on linguistic and attitudinal indicat
 
 ⸻
 
-- C: Delegated Judgment Structure
+*C: Delegated Judgment Structure*
 
 Examples include:
 
