@@ -90,3 +90,7 @@ This produces:
 * Single-layer utterances
 * Dual-layer utterances
 * Triple-layer utterances
+
+## Balance Index
+
+The standard deviation of the three axis scores is calculated as:
