@@ -3,88 +3,88 @@
     
     Subject:熊
     Not:
-    Reason:
+    Reason:stanceの向き先
     
     いや猟友会に大金払えよ。
     
     Subject:政府
     Not:猟友会
-    Reason:
+    Reason:要求の向き先
     
     ハイキングも呑気に出来ない時代になってしまった.....	
     
     Subject:熊
     Not:ハイキング
-    Reason:
+    Reason:熊の出没のため
     
     日の出町、あきる野よく行くけど山でなく街に出て来たら本当に危険!早く対応してもらわないと取り返しつかなくなる...
     
     Subject:政府
-    Not:
-    Reason:
+    Not:日の出町,あきる野
+    Reason:街に出てきたら危険なのは熊だが、要求の向き先は政府
 
     本当に危険な状況になって来た。
     
     Subject:熊
     Not:
-    Reason:
+    Reason:熊の出没のため
 
     ここまで同じタイミングで一斉に街に流れ出てるの凄いな。ただ熊被害で亡くなる人が増える前に対策してほしい
     
     Subject:政府
     Not:熊
-    Reason:
+    Reason:熊要求の向き先
 
     もう、通り魔以上だよ! 怖い	
     
     Subject:熊
     Not:通り魔
-    Reason:
+    Reason:熊に対するstanceのため
 
     数年前に親戚の隣家のおばさんが襲われて顔面が大きく裂けて今も泣き暮らしてるそうです。駆除を求めます。
     
-    Subject:自治体
-    Not:
-    Reason:
+    Subject:政府
+    Not:熊
+    Reason:要求の向き先、結論は不安より要求
 
     深夜ならまだしも6時なんて普通に出歩いてる時間帯やん...	
     
     Subject:熊
     Not:時間帯
-    Reason:
+    Reason:熊の出没に対する不安のため
     
     眠らせただけの状態でクマに触ったり抱えたりとかよく出来るな。その勇敢さ、尊敬する。
     
     Subject:市職員
     Not:クマ
-    Reason:
+    Reason:stanceの向き先
 
     ちょっと待て、殺さずに眠らせたまま運ぶんかいwこの工程すんの怖すぎるだろw
     
     Subject:市職員
     Not:工程
-    Reason:
+    Reason:stanceの向き先
     
     一般人にクマの駆除をお願いする以上、危険手当を手厚くして十分な報酬を出すべき。	
     
     Subject:政府
     Not:一般人
-    Reason:
+    Reason:要求の向き先
 
     吹き矢を受けても全然気にせずリンゴ食ってて笑った。こいつ駆除しないと来年も絶対このリンゴ園に来るわ
     
     Subject:熊
     Not:リンゴ
-    Reason:
+    Reason:stanceの向き先
 
     吹き矢は凄いわ... 当てるスキルも肝の座りっぷりも	
     
     Subject:獣医
     Not:吹き矢
-    Reason:
+    Reason:吹き矢を扱っているのは獣医
 
     寝てるとはいえ、運ぶの怖いだろうな
     
     Subject:市職員
-    Not:
-    Reason:
+    Not:熊
+    Reason:寝ているのは熊だが、運んでいるのは市職員
