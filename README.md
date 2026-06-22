@@ -111,3 +111,12 @@ This provides a simple quantitative measure of structural bias.
 If possible, could you check this?
 
 **Output**
+
+A_score: 0.2
+B_score: 0.3
+C_score: 0.7
+
+active_axes: ['B', 'C']
+structure_type: dual
+
+balance_index: 0.21
