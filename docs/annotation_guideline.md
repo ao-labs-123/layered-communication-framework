@@ -30,7 +30,7 @@ C > B > A
 ## 3.1 基本原則
 subjectは登場する名詞ではなく、態度の向き先を選ぶ。
  
-  - Subject Selection Rule
+ **Subject Selection Rule**
    発話内に複数対象が存在する場合、
    発話者が最終的に最も強く向けている対象を選択する。
    背景説明よりも結論・主張を優先する。
