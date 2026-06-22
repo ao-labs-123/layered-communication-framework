@@ -3,7 +3,7 @@
     
     Subject:熊
     Not:
-    Reason:stanceの向き先
+    Reason:熊との遭遇
     
     いや猟友会に大金払えよ。
     
