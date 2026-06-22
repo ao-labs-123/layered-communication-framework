@@ -120,3 +120,5 @@ active_axes: ['B', 'C']
 structure_type: dual
 
 balance_index: 0.21
+
+## Repository Structure
