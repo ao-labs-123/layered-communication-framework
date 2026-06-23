@@ -26,6 +26,8 @@ C > B > A
 ## 3. Subject Annotation
 
    **3.1 基本原則**
+   
+   subjectは登場する名詞ではなく、態度の向き先を選ぶ。
 
    **3.2 Subject Boundary Cases**
 
@@ -34,6 +36,30 @@ C > B > A
    **4.1 基本原則**
 
    **4.2 Stance Boundary Cases**
+
+   - 国 vs 政府 vs 自治体
+   
+   例：「東京に出ないと国は動かない」
+   
+   → 国
+   
+   ⸻
+   
+   - 熊 vs 自治体
+   
+   例：「熊を駆除してほしい」
+   
+   → 自治体
+   
+   理由：要求の向き先が自治体だから
+   
+   ⸻
+   
+   - 熊 vs 被害者
+   
+   例：「亡くなられた方が気の毒」
+   
+   → 被害者
 
 ## 5. Multi-label Policy
 - **Layer**
