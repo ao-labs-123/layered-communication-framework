@@ -1,7 +1,7 @@
 ## 1. Purpose
 
 ## 2. Layer Annotation
-- **Definition**
+**Definition**
 
 A:
 
