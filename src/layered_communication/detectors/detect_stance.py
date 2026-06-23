@@ -1,6 +1,8 @@
 from project.rules.stance_rules import STANCE_RULES
 
-def detect_stance("早く対応してほしい"):
+def detect_stance(
+    "早く対応してほしい"
+):
 
     scores = {}
 
