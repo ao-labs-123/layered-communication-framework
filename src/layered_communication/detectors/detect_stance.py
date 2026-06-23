@@ -15,5 +15,7 @@ def detect_stance(text):
         return "分析"
 
     return max(scores, key=scores.get)
+
+print(detect_stance("怖い"))
     
 
