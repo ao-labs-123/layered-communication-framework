@@ -58,6 +58,8 @@ C > B > A
 ## 4. Stance Annotation
 
    **4.1 基本原則**
+   
+   stanceは発話の中心的態度を選ぶ。
 
    **4.2 Stance Boundary Cases**
 
