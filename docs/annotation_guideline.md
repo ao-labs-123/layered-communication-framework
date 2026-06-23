@@ -31,12 +31,6 @@ C > B > A
 
    **3.2 Subject Boundary Cases**
 
-## 4. Stance Annotation
-
-   **4.1 基本原則**
-
-   **4.2 Stance Boundary Cases**
-
    - 国 vs 政府 vs 自治体
    
    例：「東京に出ないと国は動かない」
@@ -60,6 +54,14 @@ C > B > A
    例：「亡くなられた方が気の毒」
    
    → 被害者
+
+## 4. Stance Annotation
+
+   **4.1 基本原則**
+
+   **4.2 Stance Boundary Cases**
+
+   
 
 ## 5. Multi-label Policy
 - **Layer**
