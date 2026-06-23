@@ -116,24 +116,27 @@ balance_index: 0.21
 
 ```repository
 
-
 ├── data
 │   ├── analysis_output.csv
 │   ├── comments_raw.csv
-│   ├── gold_sample.csv     
-│　　└── videos.csv
-│　　
+│   ├── gold_sample.csv
+│   └── videos.csv
+│
 ├── docs
-│   ├── example.md
+│   ├── examples.md
 │   ├── annotation_guideline.md
 │   └── ontology.md
 │
 ├── src
-│　  └── layered_communication
-│        ├── analyzer.py
-│　　     └── scoring
+│   ├── layered_communication
+│   │    └── analyzer.py
+│   │
+│   └── scoring
+│        ├── layer_score.py
+│        ├── score_config.py
+│        └── stance_score.py
 │
-├── README.md
+├── README_jp.md
 ├── notebooks
 └── scripts
 
