@@ -1,47 +1,19 @@
-   
-   発話内に複数対象が存在する場合、
-   発話者が最終的に最も強く向けている対象を選択する。
-   背景説明よりも結論・主張を優先する。
-   
-## 3.2 Subject Boundary Cases
-  - 国 vs 政府 vs 自治体
-   
-例：
-「東京に出ないと国は動かない」
+## 1. Purpose
 
-→ 国
+## 2. Layer Annotation
 
-⸻
+## 3. Subject Annotation
 
-- 熊 vs 自治体
+   **3.1 基本原則**
 
-例：
-「熊を駆除してほしい」
+   **3.2 Subject Boundary Cases**
 
-→ 自治体
+## 4. Stance Annotation
 
-理由：
-要求の向き先が自治体だから
+   **4.1 基本原則**
 
-⸻
+   **4.2 Stance Boundary Cases**
 
-- 熊 vs 被害者
+## 5. Multi-label Policy
 
-例：
-「亡くなられた方が気の毒」
-
-→ 被害者
-
-# 4. Stance Annotation
-## 4.1 基本原則
-   stanceは発話の中心的態度を選ぶ。
-   
-   StanceはSubjectに対する態度を表す。
-## 4.2 Stance Boundary Cases
-- 批判 vs 皮肉
-
-例：
-「熊かわいそうと言ってた人はどう思うんだろう」
-
-→ 皮肉
-
+## 6. Difficult Examples
