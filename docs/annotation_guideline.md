@@ -27,4 +27,8 @@ Subjectは原則単一ラベル。
 
 発話の態度が最も向いている対象を選択する。
 
+**Stance**
+
+Stanceのみ複数ラベルを許可する。
+
 ## 6. Difficult Examples
