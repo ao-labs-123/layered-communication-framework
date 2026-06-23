@@ -18,4 +18,4 @@ def detect_stance(text):
 
 print(detect_stance("怖い"))
     
-
+python stance_detector.py
