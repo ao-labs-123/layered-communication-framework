@@ -1,6 +1,19 @@
 ## 1. Purpose
 
 ## 2. Layer Annotation
+   **Definition**
+
+A:
+
+コミュニケーション上の認識ズレや参照ズレを扱う発話
+
+B:
+
+対象に対する評価、感情、解釈を含む発話
+
+C:
+
+判断、要求、提案、責任帰属を含む発話
 
 ## 3. Subject Annotation
 
