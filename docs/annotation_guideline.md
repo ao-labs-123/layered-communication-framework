@@ -1,7 +1,7 @@
 ## 1. Purpose
 
 ## 2. Layer Annotation
-**Definition**
+- **Definition**
 
 A:コミュニケーション上の認識ズレや参照ズレを扱う発話
 
@@ -9,7 +9,7 @@ B:対象に対する評価、感情、解釈を含む発話
 
 C:判断、要求、提案、責任帰属を含む発話
 
-**Layer Selection Rule**
+- **Layer Selection Rule**
 
 最も支配的なLayerを選択する。
 
