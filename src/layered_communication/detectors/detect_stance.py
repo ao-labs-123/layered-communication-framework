@@ -16,6 +16,3 @@ def detect_stance(text):
 
     return max(scores, key=scores.get)
 
-print(detect_stance("怖い"))
-    
-python stance_detector.py
