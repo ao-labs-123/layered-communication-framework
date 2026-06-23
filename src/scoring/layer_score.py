@@ -1,5 +1,4 @@
-LAYER_SCORE = {
-    "A": 1,
-    "B": 2,
-    "C": 3
-}
+from .score_config import LAYER_SCORE
+
+def get_layer_score(layer: str) -> int:
+    return LAYER_SCORE.get(layer, 0)
