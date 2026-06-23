@@ -18,4 +18,6 @@ def detect_subject(text):
         return "不明"
 
     return max(scores, key=scores.get)
-    
+
+
+
