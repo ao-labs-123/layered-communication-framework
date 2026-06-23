@@ -137,9 +137,13 @@ balance_index: 0.21
 │   └── ontology.md
 │
 ├── src
-│   └── layered_communication
-│       ├── analyzer.py
-│       └── scoring
+│   ├── layered_communication
+│   │    └── analyzer.py
+│   │
+│   └── scoring
+│        ├── layer_score.py
+│        ├── score_config.py
+│        └── stance_score.py
 │
 ├── README.md
 ├── notebooks
