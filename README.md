@@ -1,146 +1,169 @@
 # Layered Communication Framework
 
-## 概要
+## Overview
 
-Layered Communication Framework は、人間の発話を「多層構造」として捉えるための軽量ルールベースモデルである。
+Layered Communication Framework is a lightweight rule-based model for representing human utterances as a set of overlapping structural layers.
 
-本フレームワークは、コミュニケーションを単一の意図や感情としてではなく、複数の構造軸が同時に重なり合う現象としてモデル化する。
+Rather than treating communication as a single intention, emotion, or speech act, the framework models discourse as the coexistence of multiple structural dimensions.
 
-深層学習や大規模コーパスに依存せず、最小限の語彙・ルール設計によって、人間的発話の構造的多層性を把握することを目的とする。
+Without relying on deep learning or large-scale corpora, the framework aims to capture the structural complexity of human communication through a minimal ontology and transparent rules.
 
----
+⸻
 
-## 理論的背景
+## Theoretical Background
 
-多くの言語分析は、発話を単一の分類カテゴリに帰属させる傾向がある。しかし実際の人間的コミュニケーションは、
+Many language analysis approaches tend to assign each utterance to a single category.
 
-- 行き違い
-- 評価
-- 判断の委譲
+In reality, however, human communication often contains multiple simultaneous structures, such as:
 
-といった構造が同時に存在しうる多層現象である。
+* Misalignment
+* Evaluation
+* Delegation of judgment
 
-本フレームワークは、発話を三つの構造軸に分解し、それぞれの強度をスコア化することで、構造の共存状態を可視化する。
+These structures frequently coexist within the same utterance.
 
-目的は精度競争ではなく、「構造把握能力」の提示にある。
+The framework decomposes discourse into three structural axes and assigns a score to each axis, allowing the coexistence of multiple communicative layers to be visualized.
 
----
+The goal is not classification accuracy, but structural interpretability.
 
-## 構造軸
+⸻
 
-### A：行き違い構造（Misalignment）
+## Structural Axes
 
-- 依頼と実行の不一致
-- 参照対象のズレ
-- 期待と解釈の不一致
+**A: Misalignment Structure**
 
-日常的なコミュニケーションの摩擦を構造として検出する。
+Examples include:
 
----
+* Request–action mismatch
+* Reference mismatch
+* Expectation–interpretation mismatch
 
-### B：評価構造（Evaluation）
+This axis captures structural friction in communication.
 
-- 状況評価
-- 人物評価
-- 態度トリガーを伴う強評価
+⸻
 
-評価語彙および態度指標に基づき、発話の評価的レイヤーを抽出する。
+**B: Evaluation Structure**
 
----
+Examples include:
 
-### C：判断委ね構造（Delegated Judgment）
+* Situation evaluation
+* Person evaluation
+* Strong evaluative expressions that trigger stance formation
 
-- 立場依存型（任せる・あなた次第）
-- 暗黙ルール型（普通・流れ）
-- 責任条件型（〜ならする）
-- 配慮依存型（よければ・可能なら）
+This axis extracts evaluative layers based on linguistic and attitudinal indicators.
 
-判断や責任の所在がどこに置かれているかを構造的に検出する。
+⸻
 
----
+**C: Delegated Judgment Structure**
 
-## 多層スコアリング
+Examples include:
 
-各発話は以下のスコアを持つ：
+* Responsibility delegation (“it’s up to you”)
+* Implicit norm reliance (“that’s just how things are”)
+* Conditional responsibility (“if X, then Y”)
+* Consideration-based delegation (“if possible”, “if you don’t mind”)
 
-- A_score
-- B_score
-- C_score
+This axis identifies where judgment, responsibility, or decision-making authority is placed.
 
-スコアは 0〜1 に正規化される。
+⸻
 
-### 多層判定
+## Multi-Layer Scoring
 
-最大スコアを基準とし、相対閾値 0.6 を用いる：
-active_axis if score >= max_score × 0.6
-これにより、
+Each utterance receives three normalized scores:
 
-- 単層型（single）
-- 二層型（dual）
-- 三層型（triple）
+* A_score
+* B_score
+* C_score
 
-を判定する。
+All scores are normalized to the range [0,1].
 
-### バランス指数
+## Multi-Layer Classification
 
-三軸の標準偏差を balance_index として算出する。
+The highest score is used as the reference axis.
 
-- 低い値：均衡的発話
-- 高い値：偏重型発話
+An axis is considered active when:An axis is considered active when:
 
-これにより、人間的発話の構造的偏りを定量化する。
+score >= max_score * 0.6score >= max_score * 0.6
 
----
+This produces:
 
-## 入出力例
+* Single-layer utterances
+* Dual-layer utterances
+* Triple-layer utterances
 
-### 入力
-よければ確認お願いします
+## Balance Index
 
-### 出力
+The standard deviation of the three axis scores is calculated as:
+
+balance_index
+
+Interpretation:
+
+* Low value → structurally balanced utterance
+* High value → structurally concentrated utterance
+
+This provides a simple quantitative measure of structural bias.
+
+## Example
+
+**Input**
+
+If possible, could you check this?
+
+**Output**
 
 A_score: 0.2
 B_score: 0.3
 C_score: 0.7
-active_axes: [‘B’, ‘C’]
+
+active_axes: ['B', 'C']
 structure_type: dual
+
 balance_index: 0.21
 
----
+## Repository Structure
 
-## リポジトリ構成
+```repository
 
-src/layered_communication/
-lexicon/
-rules/
-scoring/
-analyzer.py
+├── data
+│   ├── analysis_output.csv
+│   ├── comments_raw.csv
+│   ├── gold_sample.csv
+│   └── videos.csv
+│
+├── docs
+│   ├── examples.md
+│   ├── annotation_guideline.md
+│   └── ontology.md
+│
+├── src
+│   └── layered_communication
+│       ├── analyzer.py
+│       └── scoring
+│
+├── README.md
+├── notebooks
+└── scripts
 
-data/
-demo_input.csv
-demo_output.csv
+```
 
----
+## Positioning
 
-## 本フレームワークの位置づけ
+This project is not intended to be a high-accuracy classifier.
 
-本プロジェクトは高精度分類器ではない。
+Its purpose is to balance:
 
-目的は、
+* Lightweight design
+* Transparent rules
+* High structural interpretability
 
-- 軽量な設計
-- 透明なルール
-- 高い構造把握能力
+The framework attempts to represent human communication not through semantic meaning alone, but through the overlap of communicative structures.
 
-を両立させることである。
+⸻
 
-人間らしさを「意味」ではなく「構造の重なり」として捉える試みである。
+## Future Directions
 
----
-
-## 今後の展開
-
-- コーパスを用いた多層出現率分析
-- 構造クラスタリング
-- 他言語への拡張
-- AI生成文との構造比較
+* Multi-layer frequency analysis on large corpora
+* Structural clustering of discourse
+* Cross-linguistic adaptation
+* Comparison between human and AI-generated communication
