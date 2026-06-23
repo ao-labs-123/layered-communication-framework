@@ -16,6 +16,7 @@
 
 ## 5. Multi-label Policy
 **Layer**
+
 Layerは原則単一ラベル。
 
 最も支配的な層を選択する。
