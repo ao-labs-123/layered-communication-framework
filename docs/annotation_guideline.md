@@ -32,10 +32,10 @@ Subjectは原則単一ラベル。
 Stanceのみ複数ラベルを許可する。
 
 **許可例**
-
+```stance
 批判/要求
 共感/賞賛
 不安/要求
 皮肉/批判
-
+```
 ## 6. Difficult Examples
