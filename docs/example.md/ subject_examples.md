@@ -3,7 +3,7 @@
     
     Subject:熊
     Not:
-    Reason:熊との遭遇
+    Reason:発話の評価対象は熊なため
     
     いや猟友会に大金払えよ。
     
