@@ -43,4 +43,3 @@ Stanceのみ複数ラベルを許可する。
 賞賛/批判
 共感/皮肉
 ```
-## 6. Difficult Examples
