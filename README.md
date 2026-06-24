@@ -138,7 +138,14 @@ balance_index: 0.21
 │
 ├── src
 │   ├── layered_communication
-│   │    └── analyzer.py
+│   │    ├── analyzer.py
+│   │    └── detectors
+│   │
+│   ├── project
+│   │    ├── lexicon
+│   │    ├── ontology
+│   │    ├── patterns
+│   │    └── rules
 │   │
 │   └── scoring
 │        ├── layer_score.py
