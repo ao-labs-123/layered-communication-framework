@@ -10,6 +10,10 @@ def detect_stance(text):
             if word in text
         )
 
+    if max(scores.values()) == 0:
+        return "不明"
+
     return max(scores, key=scores.get)
+
 
 print(detect_stance("怖い"))
