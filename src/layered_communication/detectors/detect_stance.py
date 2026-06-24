@@ -1,4 +1,4 @@
-from src.project.ontology.stance_rules import STANCE_RULES
+from project.ontology.stance_rules import STANCE_RULES
 
 def detect_stance(text):
 
