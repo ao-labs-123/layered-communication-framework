@@ -1,6 +1,6 @@
-from project.rules.rules_A import RULES_A
-from project.rules.rules_B import RULES_B
-from project.rules.rules_C import RULES_C
+from src.project.rules.rules_A import RULES_A
+from src.project.rules.rules_B import RULES_B
+from src.project.rules.rules_C import RULES_C
 
 def detect_layer(text):
 
@@ -15,3 +15,5 @@ def detect_layer(text):
     }
 
     return max(scores, key=scores.get)
+
+print(detect_layer("いや猟友会に大金払えよ"))

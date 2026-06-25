@@ -1,4 +1,4 @@
-from project.ontology.stance_rules import STANCE_RULES
+from src.project.ontology.stance_rules import STANCE_RULES
 
 def detect_stance(text):
 
@@ -15,5 +15,5 @@ def detect_stance(text):
 
     return max(scores, key=scores.get)
 
+ 
 
-print(detect_stance("怖い"))

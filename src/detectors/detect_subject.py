@@ -1,4 +1,4 @@
-from project.rules.subject_rules import SUBJECT_RULES
+from src.project.ontology.subject_rules import SUBJECT_RULES
 
 def detect_subject(text):
 
@@ -18,3 +18,5 @@ def detect_subject(text):
         return "不明"
 
     return max(scores, key=scores.get)
+
+print(detect_subject("いや猟友会に大金払えよ"))
