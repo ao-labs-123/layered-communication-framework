@@ -1,4 +1,4 @@
-## Mult-label Examples
+## Multi-label Examples
     これ放置ならもはや国の存在意義が問われるよ。国民の命を守らずして何の国家か
     
     Stance:批判|皮肉
