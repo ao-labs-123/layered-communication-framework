@@ -19,4 +19,4 @@ def detect_subject(text):
 
     return max(scores, key=scores.get)
 
-print(detect_subject("いや猟友会に大金払えよ"))
+print(detect_subject(""))
