@@ -116,6 +116,7 @@ balance_index: 0.21
 
 ```repository
 
+
 ├── data
 │   ├── analysis_output.csv
 │   ├── comments_raw.csv
@@ -128,9 +129,10 @@ balance_index: 0.21
 │   └── ontology.md
 │
 ├── src
-│   ├── layered_communication
-│   │    ├── analyzer.py
-│   │    └── detectors
+│   ├── detectors
+│   │    ├── detect_layer.py
+│   │    ├── detect_stance.py
+│   │    └── detect_subject.py
 │   │
 │   ├── project
 │   │    ├── lexicon
@@ -138,14 +140,17 @@ balance_index: 0.21
 │   │    ├── patterns
 │   │    └── rules
 │   │
-│   └── scoring
-│        ├── layer_score.py
-│        ├── score_config.py
-│        └── stance_score.py
+│   ├── scoring
+│   │    ├── layer_score.py
+│   │    ├── score_config.py
+│   │    └── stance_score.py
+│   │
+│   └── analyzer.py
 │
-├── README_jp.md
+├── README.md
 ├── notebooks
 └── scripts
+
 
 ```
 ---
