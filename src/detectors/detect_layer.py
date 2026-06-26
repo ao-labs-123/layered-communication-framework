@@ -16,4 +16,4 @@ def detect_layer(text):
 
     return max(scores, key=scores.get)
 
-print(detect_layer("柿の木なくなったら更に人家に入ってきたり熊は追い詰められるだけだろうに。熊を減らさないと。"))
+print(detect_layer("いや猟友会に大金払えよ。"))

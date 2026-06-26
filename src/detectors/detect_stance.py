@@ -16,5 +16,5 @@ def detect_stance(text):
     return max(scores, key=scores.get)
     
     
-print(detect_stance("麻酔打った後その場で止め刺ししないのは、農作物用の倉庫を汚したくないからかな?見ててハラハラするけど…"))
+print(detect_stance("毒餌を使って駆除できないだろうか"))
 
