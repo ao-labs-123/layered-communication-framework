@@ -16,4 +16,4 @@ def detect_layer(text):
 
     return max(scores, key=scores.get)
 
-print(detect_layer("住宅街だから撃てないとかさっさと法律変えろ。時間も金も無駄すぎる"))
+print(detect_layer("柿の木なくなったら更に人家に入ってきたり熊は追い詰められるだけだろうに。熊を減らさないと。"))
