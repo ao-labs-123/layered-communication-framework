@@ -16,5 +16,5 @@ def detect_stance(text):
     return max(scores, key=scores.get)
     
     
-print(detect_stance("毒餌を使って駆除できないだろうか"))
+print(detect_stance("ちょっと待て、殺さずに眠らせたまま運ぶんかいwこの工程すんの怖すぎるだろw"))
 
