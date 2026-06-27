@@ -19,5 +19,5 @@ def detect_subject(text):
 
     return max(scores, key=scores.get)
 
-print(detect_subject("一般人にクマの駆除をお願いする以上、危険手当を手厚くして十分な報酬を出すべき。"))
+print(detect_subject("寝てるとはいえ、運ぶの怖いだろうな"))
 
