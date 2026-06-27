@@ -19,5 +19,5 @@ def detect_subject(text):
 
     return max(scores, key=scores.get)
 
-print(detect_subject("運悪く遭遇したら生きたまま食い殺されるの最悪すぎる"))
+print(detect_subject("もう、通り魔以上だよ! 怖い"))
 
