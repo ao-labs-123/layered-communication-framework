@@ -16,4 +16,4 @@ def detect_layer(text):
 
     return max(scores, key=scores.get)
 
-print(detect_layer("日の出町、あきる野よく行くけど山でなく街に出て来たら本当に危険!早く対応してもらわないと取り返しつかなくなる..."))
+print(detect_layer(""))

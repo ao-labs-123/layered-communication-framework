@@ -2,13 +2,13 @@
 
 import pandas as pd
 
-from detect_layer import detect_layer
-from detect_subject import detect_subject
-from detect_stance import detect_stance
+from src.detectors.detect_layer import detect_layer
+from src.detectors.detect_subject import detect_subject
+from src.detectors.detect_stance import detect_stance
 
 
-INPUT_FILE = "comments.csv"
-OUTPUT_FILE = "analysis_output.csv"
+INPUT_FILE = "data/comments_raw.csv"
+OUTPUT_FILE = "data/analysis_output.csv"
 
 
 def analyze_comment(text):

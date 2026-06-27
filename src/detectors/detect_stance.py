@@ -16,5 +16,5 @@ def detect_stance(text):
     return max(scores, key=scores.get)
     
     
-print(detect_stance("日の出町、あきる野よく行くけど山でなく街に出て来たら本当に危険!早く対応してもらわないと取り返しつかなくなる..."))
+print(detect_stance(""))
 
